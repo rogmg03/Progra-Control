@@ -97,8 +97,8 @@ class Larry:
         return fin()
     #animacion de cohete
     def cohete(self):
-        for x in range(29):
-            self.set_imagen("cohete"+str(x)+".gif")
+        for x in range(1,27):
+            self.set_imagen("Cohete"+str(x)+".gif")
             imagen=cargarimagen(self.imagen)
             animacionl.config(image=imagen)
             if x<15:
